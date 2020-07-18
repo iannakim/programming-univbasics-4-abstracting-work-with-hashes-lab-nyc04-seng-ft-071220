@@ -2,8 +2,8 @@ def my_hash_creator(key, value)
 {key=>value}# return a hash that includes the key and value parameters passed into this method
 end
 
-def read_from_hash(my_hash, :name)
- my_hash = { name: "anna", age: 31}
+def read_from_hash(hash, :name)
+ hash = { :name => "anna", age: 31}
 end
 
 def update_counting_hash(hash, key)
