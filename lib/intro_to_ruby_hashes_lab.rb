@@ -3,7 +3,10 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, :name)
- hash = { :name => "anna", age: 31}
+ hash = {
+   :name => "anna",
+   age: 31
+ }
 end
 
 def update_counting_hash(hash, key)
