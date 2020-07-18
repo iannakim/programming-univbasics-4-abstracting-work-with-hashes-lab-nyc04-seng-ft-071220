@@ -5,7 +5,7 @@ end
 def read_from_hash(hash, :name)
  hash = {
    :name => "anna",
-   age: 31
+   :age => 31
  }
 end
 
